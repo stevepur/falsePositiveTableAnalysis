@@ -2,7 +2,7 @@
 
 The file cfpTable.csv contains the final Kepler certified false positive table merged with the Kepler Cumulative KOI table, the Kepler Astrophyscial Position Probability table, and the Kepler DR25 stellar properties table.  
 
-The file cfpTable_Berger2018.csv adds the stellar properties from Berger et al 2020 (https://arxiv.org/abs/2001.07737) and planet sizes from Berger et al (https://arxiv.org/abs/2005.14671).  For convenience, the Berger radius and errors, "R*", "E_R*" and "e_R*" have been duplicated under the names "radiusBerger", "radiusBerger_err1", and "radiusBerger_err2", where radiusBerger_err1 and radiusBerger_err2 have the same meaning as the DR25 radius errors.  The planet radius corrected for the new stellar radius using the planet to star radius ratio is available in "corrected_prad", "corrected_prad_err1" and "corrected_prad_err2".
+The file cfpTable_Berger2018.csv adds the stellar properties from Berger et al 2020a (https://arxiv.org/abs/2001.07737) and planet sizes from Berger et al 2020b (https://arxiv.org/abs/2005.14671).  For convenience, the Berger radius and errors, "R*", "E_R*" and "e_R*" have been duplicated under the names "radiusBerger", "radiusBerger_err1", and "radiusBerger_err2", where radiusBerger_err1 and radiusBerger_err2 have the same meaning as the DR25 radius errors.  The planet radius corrected for the new stellar radius using the planet to star radius ratio is available in "corrected_prad", "corrected_prad_err1" and "corrected_prad_err2".
 
 The columns in cfpTable.csv have the same labels as the source table at the the exoplanet archive.  The documentation of the columns is found in: 
 - Certified false positive table: https://exoplanetarchive.ipac.caltech.edu/docs/API_fpwg_columns.html
